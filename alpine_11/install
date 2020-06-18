@@ -1,0 +1,4 @@
+#!/bin/bash
+apk update; apk upgrade -y; apk add wget zip unzip git curl nano mlocate iftop htop lsof 
+unzip 1.19.zip
+apk add --allow-untrusted  full/*.apk
